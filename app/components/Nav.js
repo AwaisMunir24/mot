@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { phone, phoneHref } from "../../lib/data";
 
-const links = [["Home", "/"], ["Services", "/services"], ["About", "/about"], ["Contact", "/contact"]];
+const links = [["Home", "/"], ["Services", "/services"], ["About", "/about"], ["Contact", "/contact"],["Collection", "/collection"],];
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
